@@ -1,0 +1,15 @@
+[package]
+name = "chrome-sixel"
+version = "0.1.0"
+authors = ["Eddie <tamamu.1r1s@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+headless_chrome = {git = "https://github.com/atroche/rust-headless-chrome"}
+sixel = {git = "https://github.com/meh/rust-sixel"}
+anyhow = "*"
+picto = "0.4.4"
+crossterm = "0.23"
+termsize = "*"
